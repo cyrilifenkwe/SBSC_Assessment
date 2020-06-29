@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DayoE\\Desktop\\SBSC_Assessment\\HyphenSeparatedNumbers\\HyphenSeparatedNumbers.csproj": {}
+    "C:\\Users\\DayoE\\Desktop\\SBSC_Assessment\\NumberOfOccurrence\\NumberOfOccurrence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DayoE\\Desktop\\SBSC_Assessment\\HyphenSeparatedNumbers\\HyphenSeparatedNumbers.csproj": {
+    "C:\\Users\\DayoE\\Desktop\\SBSC_Assessment\\NumberOfOccurrence\\NumberOfOccurrence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DayoE\\Desktop\\SBSC_Assessment\\HyphenSeparatedNumbers\\HyphenSeparatedNumbers.csproj",
-        "projectName": "HyphenSeparatedNumbers",
-        "projectPath": "C:\\Users\\DayoE\\Desktop\\SBSC_Assessment\\HyphenSeparatedNumbers\\HyphenSeparatedNumbers.csproj",
+        "projectUniqueName": "C:\\Users\\DayoE\\Desktop\\SBSC_Assessment\\NumberOfOccurrence\\NumberOfOccurrence.csproj",
+        "projectName": "NumberOfOccurrence",
+        "projectPath": "C:\\Users\\DayoE\\Desktop\\SBSC_Assessment\\NumberOfOccurrence\\NumberOfOccurrence.csproj",
         "packagesPath": "C:\\Users\\DayoE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DayoE\\Desktop\\SBSC_Assessment\\HyphenSeparatedNumbers\\obj\\",
+        "outputPath": "C:\\Users\\DayoE\\Desktop\\SBSC_Assessment\\NumberOfOccurrence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DayoE\\AppData\\Roaming\\NuGet\\NuGet.Config"
