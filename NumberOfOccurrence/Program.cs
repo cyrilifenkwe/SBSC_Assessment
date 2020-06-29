@@ -3,42 +3,52 @@ using System.Text;
 
 namespace NumberOfOccurrence
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine(FormatResult("Occurrence"));
         }
-        static StringBuilder FormatResult(string givenString)
+        public static string FormatResult(string GivenString)
         {
-            StringBuilder builder = new StringBuilder();
-            int count = 0;
-            int occurrence = 0;
-            while(count < givenString.Length)
+            try
             {
-                 for(int i = 0; i < givenString.Length;i++)
+                string givenString = GivenString.ToLower().Replace(" ","").Trim();
+                StringBuilder builder = new StringBuilder();
+                int count = 0;
+                int occurrence = 0;
+                while(count < givenString.Length)
                 {
-                    if(givenString[count] == givenString[i])
+                    for(int i = 0; i < givenString.Length;i++)
                     {
-                        occurrence++;
+                        if(givenString[count] == givenString[i])
+                        {
+                            occurrence++;
+                        }
                     }
+                    if(builder.ToString().LastIndexOf(givenString[count]) > -1)
+                    {
+                        occurrence = 0;
+                        count++;
+                    }
+                    else
+                    {
+                        builder.Append(givenString[count]);
+                        builder.Append(occurrence);
+                        occurrence = 0;
+                        count++;
+                    }
+                    
                 }
-                if(builder.ToString().LastIndexOf(givenString[count]) > -1)
-                {
-                    occurrence = 0;
-                    count++;
-                }
-                else
-                {
-                    builder.Append(givenString[count]);
-                    builder.Append(occurrence);
-                    occurrence = 0;
-                    count++;
-                }
+            
+                return builder.ToString();
                 
             }
-           
-            return builder;
+            catch(Exception ex)
+            {
+                return "";
+            }
+            
         }
     }
 }

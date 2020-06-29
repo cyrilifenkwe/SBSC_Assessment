@@ -10,6 +10,7 @@
         "dependencies": {
           "HyphenSeparatedNumbers": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.5.0",
+          "NumberOfOccurrence": "1.0.0",
           "coverlet.collector": "1.2.0",
           "xunit": "2.4.0",
           "xunit.runner.visualstudio": "2.4.0"
@@ -693,6 +694,11 @@
         "runtime": {
           "HyphenSeparatedNumbers.dll": {}
         }
+      },
+      "NumberOfOccurrence/1.0.0": {
+        "runtime": {
+          "NumberOfOccurrence.dll": {}
+        }
       }
     }
   },
@@ -1053,6 +1059,11 @@
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
     },
     "HyphenSeparatedNumbers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NumberOfOccurrence/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

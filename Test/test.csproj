@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HyphenSeparatedNumbers\HyphenSeparatedNumbers.csproj" />
+    <ProjectReference Include="..\NumberOfOccurrence\NumberOfOccurrence.csproj" />
   </ItemGroup>
 
 </Project>

@@ -97,3 +97,6 @@ C:\Users\DayoE\Desktop\SBSC_Assessment\test\obj\Debug\netcoreapp3.1\test.genrunt
 C:\Users\DayoE\Desktop\SBSC_Assessment\test\bin\Debug\netcoreapp3.1\HyphenSeparatedNumbers.exe
 C:\Users\DayoE\Desktop\SBSC_Assessment\test\bin\Debug\netcoreapp3.1\HyphenSeparatedNumbers.dll
 C:\Users\DayoE\Desktop\SBSC_Assessment\test\bin\Debug\netcoreapp3.1\HyphenSeparatedNumbers.pdb
+C:\Users\DayoE\Desktop\SBSC_Assessment\test\bin\Debug\netcoreapp3.1\NumberOfOccurrence.exe
+C:\Users\DayoE\Desktop\SBSC_Assessment\test\bin\Debug\netcoreapp3.1\NumberOfOccurrence.dll
+C:\Users\DayoE\Desktop\SBSC_Assessment\test\bin\Debug\netcoreapp3.1\NumberOfOccurrence.pdb
