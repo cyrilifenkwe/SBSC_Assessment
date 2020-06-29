@@ -7,12 +7,13 @@ namespace AbsoluteDifference
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(GetResult(3));
+            
+            List<int> givenList = new List<int>{1,2};
+            Console.WriteLine(GetResult(3,givenList));
         }
-        public static int GetResult(int k)
+        public static int GetResult(int k,List<int> givenList)
         {
             int count = 0;
-            List<int> givenList = new List<int>{1,2};
             List<int> difference = new List<int>();
             int listLength = givenList.Count;
             try

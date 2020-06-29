@@ -16,6 +16,7 @@
   <ItemGroup>
     <ProjectReference Include="..\HyphenSeparatedNumbers\HyphenSeparatedNumbers.csproj" />
     <ProjectReference Include="..\NumberOfOccurrence\NumberOfOccurrence.csproj" />
+    <ProjectReference Include="..\AbsoluteDifference\AbsoluteDifference.csproj" />
   </ItemGroup>
 
 </Project>
