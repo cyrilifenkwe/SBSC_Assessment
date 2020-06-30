@@ -23,7 +23,7 @@ namespace AbsoluteDifference
 
                         for(int i = count + 1;i < givenList.Count;i++)
                         {
-                            int absoluteDifference = givenList[i] - givenList[count];
+                            int absoluteDifference = Math.Abs(givenList[i] - givenList[count]);
                             if(givenList.LastIndexOf(absoluteDifference) <= -1)
                             {
                                 givenList.Add(absoluteDifference); 
